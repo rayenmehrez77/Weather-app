@@ -2,9 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    font-family: "Raleway", sans-serif;
+  }
+}
+
 @layer components {
   .search {
     @apply bg-gray-dark border-none focus:outline-none px-3 py-2 text-gray-lightest shadow-md hover:bg-gray-darkest;
+  }
+
+  .SearchBtn {
+    @apply bg-blue-btn  border-none focus:outline-none px-3 py-2 text-gray-lightest shadow-md;
   }
 
   .center {

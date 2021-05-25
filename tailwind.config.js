@@ -9,13 +9,25 @@ module.exports = {
       gray: {
         dark: "#6E707A",
         darkest: "#585676",
-        DEFAULT: "#E7E7EB",
+        default: "#E7E7EB",
         light: "#e0e6ed",
         lightest: "#f9fafc",
       },
       blue: {
         dark: "#1E213A",
         darkest: "#100E1D",
+        btn: "#3C47E9",
+      },
+      fontFamily: {
+        ral: ["Raleway", "sans-serif"],
+      },
+      fontWeight: {
+        thin: 100,
+        light: 300,
+        normal: 400,
+        medium: 500,
+        semibold: 600,
+        bold: 700,
       },
     },
   },
